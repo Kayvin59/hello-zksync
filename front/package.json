@@ -1,0 +1,34 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.0.2",
+    "@tanstack/react-query": "^5.28.6",
+    "@web3modal/wagmi": "^4.1.1",
+    "ethers": "^6.11.1",
+    "next": "14.1.4",
+    "react": "link:@web3modal/wagmi/react",
+    "react-dom": "^18",
+    "viem": "2.x",
+    "wagmi": "^2.5.12",
+    "zksync-ethers": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
